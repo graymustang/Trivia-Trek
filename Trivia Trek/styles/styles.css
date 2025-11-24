@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("../images/moroccan-flower.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2{
+    font-size: 45px;
+    color: white;
+    background-color: #1f60ca;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+/*This text container adds a gray background*/
+.text-container{
+    
+    background-color: gray;
+    border-radius: 10px;
+    width: fit-content;
+    padding:10px 20px 20px 20px;
+    box-shadow: -5px 5px 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/*This wrapper adds a light blue background and the blue border for text */
+.text-wrapper{
+    font-size: 20px;
+    background-color: rgb(193, 213, 243);
+    border: 2px solid #1f60ca;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.startButton{
+    font-size: 30px;
+    color: #fff;
+    background-color: #222;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    transition: background 0.2s ease;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.startButton:hover{
+    background-color: #444;
+}
+
+/* Make the answer buttons look decent */
+.answerButton{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;  
+}
+
+.answerButton:hover{
+    background-color: #f3f3f3;
+    border-color: #888;
+}
+
+/* Makes the dropdown lists look nicer */
+#category, #difficulty {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+#category:focus, #difficulty:focus {
+    outline: none;
+    border-color: #7a35ff;
+    box-shadow: 0 0 4px rgba(122, 53, 255, 0.6);
+}
+
+/* Makes the timer text box look nice*/
+#timerText {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d9534f; 
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
