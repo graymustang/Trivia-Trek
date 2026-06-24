@@ -13,7 +13,6 @@ startButton.addEventListener("click", () => {
     startGame();
 });
 
-//Function that starts the game
 function startGame(){
     const difficultySelect = document.getElementById('difficulty');
     const categorySelect = document.getElementById('category');
@@ -26,7 +25,7 @@ function startGame(){
     getQuestions(difficulty, category);
 }
 
-// Function that gets questions from API
+// Get questions from API
 
 async function getQuestions(difficulty, category){
     const amount = 5;
@@ -136,7 +135,7 @@ function onAnswerClick(event){
     }
 }
 
-//Show a summary of the game at the end
+// Summary shows up at the end of the game
 function summary(){
     const gameScreen = document.getElementById('game');
     const total = currentQuestions.length;
@@ -161,7 +160,7 @@ function summary(){
     });
 }
 
-//start the time, clear it, and then update it.
+// Start the time, clear it, and then update it.
 function startTimer() {
     timeRemaining = timePerQuestion;
     updateTimerText();
