@@ -11,7 +11,7 @@ At the end, there is a screen showing the summary of the game.
 - Open Trivia DB public api
 
 ## How to run
-Download repository, then open "index.html" in your browser.
+Clone repository, then open "index.html" in your browser.
 
 ## Features
 - Select difficulty (easy, medium, hard)
